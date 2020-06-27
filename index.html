@@ -13,7 +13,12 @@ body {font-family: "Lato", sans-serif}
 
 
 <script>
-
+(funtion() { 
+  var body = document.getElementsByTagName('BODY')[0];
+   document.addEventListener('message', function(msg) { 
+    var color = msg.data; 
+    alert(color);
+     }) })()
 
 </script>
 
